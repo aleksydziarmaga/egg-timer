@@ -1,0 +1,59 @@
+.App {
+  min-height: 100vh;
+}
+
+.page {
+  text-align: center;
+  min-height: calc(100vh - 56px);
+  display: flex;
+  flex-direction: column; 
+}
+
+.app-header {
+  display: flex;
+  justify-content: space-between;
+}
+.egg-container {
+  flex: 1 1 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 1em 2em;
+}
+
+.welcome-container {
+  flex: 1 1 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 1em 2em;
+}
+
+.egg-container:not(:last-child) {
+  margin-bottom: 0; 
+}
+
+.egg-image {
+  margin-bottom: 1em;
+}
+
+.egg-name {
+  text-transform: capitalize;
+}
+
+.hidden-timer {
+  padding: 20px;
+}
+
+.welcome-card {
+  flex: 1 1 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
